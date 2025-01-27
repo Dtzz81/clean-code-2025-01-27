@@ -1,7 +1,7 @@
 {
   "name": "clean-code-2024-05-13",
   "version": "1.0.0",
-  "description": "",
+  "description": "Created using...",
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
@@ -15,5 +15,13 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dtzz81/clean-code-2025-01-27.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dtzz81/clean-code-2025-01-27/issues"
+  },
+  "homepage": "https://github.com/Dtzz81/clean-code-2025-01-27#readme"
 }
