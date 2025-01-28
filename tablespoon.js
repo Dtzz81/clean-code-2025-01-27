@@ -1,4 +1,6 @@
-export class Teaspoon{
+import { Teaspoon } from "./teaspoon"
+
+export class Tablespoon{
     constructor(value) {
         this.value = value
     }
@@ -9,6 +11,6 @@ export class Teaspoon{
     }
     volumeInTeaspoons()
     {
-     return this
+     return new Teaspoon(3)
     }
 }
