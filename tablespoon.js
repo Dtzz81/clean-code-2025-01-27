@@ -9,6 +9,11 @@ export class Tablespoon{
         return this.volumeInTeaspoons().value == other.volumeInTeaspoons().value
 
     }
+    add(other)
+    {
+       this.value = this.volumeInTeaspoons().value + other.volumeInTeaspoons().value
+    return this
+    }
     volumeInTeaspoons()
     {
      return new Teaspoon(3)

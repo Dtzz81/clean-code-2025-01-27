@@ -18,7 +18,12 @@ describe('Test Measurement... ', () => {
     test('Convert volume of tablespoons to teaspoons', () => {
         expect(new Tablespoon(1).equals(new Teaspoon(3))).toBe(true);
     })
-
+    test('Add volume in teaspoons', () => {
+        expect(new Teaspoon(1).add(new Teaspoon(2)).equals(new Teaspoon(3))).toBe(true);
+    })
+    test('Add teaspoons in tablespoons', () => {
+        expect(new Tablespoon(1).add(new Teaspoon(3)).equals(new Tablespoon(2))).toBe(true);
+    })
 
 
 })
